@@ -15,4 +15,6 @@ Pandas : pandas is a Python package providing fast, flexible, and expressive dat
 matplotlib.pyplot : Matplotlib is a plotting library for creating static, animated, and interactive visualizations in Python. Matplotlib can be used in Python scripts, the Python and IPython shell, web application servers, and various graphical user interface toolkits like Tkinter, awxPython, etc.
 Pyplot is a Matplotlib module which provides a MATLAB-like interface. Matplotlib is designed to be as usable as MATLAB, with the ability to use Python and the advantage of being free and open-source. Each pyplot function makes some change to a figure: e.g., creates a figure, creates a plotting area in a figure, plots some lines in a plotting area, decorates the plot with labels, etc. The various plots we can utilize using Pyplot are Line Plot, Histogram, Scatter, 3D Plot, Image, Contour, and Polar.
 
-
+# About Repository
+In this repository, I'm building snapchat like face filters - eyeglasses and moustache for popular Game Of Throne Characters Tyrion Lannister and Jaime.
+You will be given an input image and two image templates (one for sunglasses & moustache , task is to overlay the eyeglasses and moustache on the given character). To detect the facial keypoints like position of eyes and nose, I'm used haarcascade xml files (as training data).
